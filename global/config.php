@@ -1,6 +1,6 @@
 <?php
 
-define("KEY","masterjino");
+define("KEY","duarte");
 define("COD","AES-128-ECB");
 
 define("SERVIDOR","localhost");

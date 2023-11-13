@@ -1,0 +1,131 @@
+/* styles.css */
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('file:///C:/Users/frnk_/Downloads/tu-imagen-de-fondo.jpg'); /* Ruta completa a tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+    background-attachment: fixed; /* Fondo fijo */
+}
+
+/* Resto de tus estilos */
+
+h1 {
+    color: #333; /* Color del texto para encabezados */
+    font-size: 28px; /* Tamaño de fuente para h1 */
+}
+
+p {
+    font-size: 16px; /* Tamaño de fuente para párrafos */
+}
+a {
+    color: #007bff; /* Color de enlaces normales (azul) */
+    text-decoration: none; /* Sin subrayado por defecto */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón por encima */
+}
+.container {
+    margin: 20px; /* Márgenes alrededor del contenedor principal */
+    padding: 10px; /* Espaciado interno del contenedor */
+    background-color: #fff; /* Color de fondo blanco */
+}
+.btn {
+    background-color: #007bff; /* Color de fondo azul para botones */
+    color: #fff; /* Color de texto blanco para botones */
+    padding: 10px 20px; /* Espaciado interno para botones */
+    border: none; /* Sin bordes */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Color de fondo azul más oscuro al pasar el ratón */
+}
+img {
+    max-width: 100%; /* Asegura que las imágenes no se desborden del contenedor */
+    height: auto; /* Evita que las imágenes se distorsionen al cambiar su tamaño */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Cambia la fuente de texto */
+    background-color: #f0f0f0; /* Cambia el color de fondo */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+}
+
+/* Estilo para encabezados (h1, h2, etc.) */
+h1, h2, h3 {
+    color: #333; /* Cambia el color de texto de los encabezados */
+    margin-bottom: 20px; /* Añade margen inferior */
+}
+
+/* Estilo para los botones */
+.btn {
+    background-color: #007bff; /* Cambia el color de fondo de los botones */
+    color: #fff; /* Cambia el color de texto de los botones */
+    padding: 10px 20px; /* Añade espaciado interno a los botones */
+    border: none; /* Elimina el borde de los botones */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón */
+}
+
+/* Estilo para las tarjetas de producto */
+.card {
+    border: 1px solid #ddd; /* Agrega un borde a las tarjetas */
+    border-radius: 5px; /* Agrega bordes redondeados a las tarjetas */
+    margin-bottom: 20px; /* Añade margen inferior a las tarjetas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega sombra a las tarjetas */
+}
+
+/* Estilo para las imágenes en las tarjetas */
+.card-img-top {
+    max-width: 100%; /* Asegura que las imágenes no se desborden de las tarjetas */
+    height: auto; /* Evita que las imágenes se distorsionen al cambiar de tamaño */
+}
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para encabezados */
+h1, h2, h3 {
+    color: #007bff;
+}
+
+/* Estilo para botones */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para tarjetas */
+.card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}

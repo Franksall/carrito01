@@ -25,7 +25,7 @@ if($_POST){
     
     foreach($_SESSION['CARRITO'] as $indice=>$producto) { 
     
-        $sentencia=$pdo->prepare("INSERT INTO `tbldetalleventas` (`ID`, `IDVENTA`, `IDPRODUCTO`, `PRECIOUNITARIO`, `CANTIDAD`, `DESCARGADO`) VALUES (NULL,:IDVENTA, :IDPRODUCTO, :PRECIOUNITARIO, :CANTIDAD, '0');");
+        $sentencia=$pdo->prepare("INSERT INTO `tblDetalleVenta` (`ID`, `IDVENTA`, `IDPRODUCTO`, `PRECIOUNITARIO`, `CANTIDAD`, `DESCARGADO`) VALUES (NULL,:IDVENTA, :IDPRODUCTO, :PRECIOUNITARIO, :CANTIDAD, '0');");
 
         $sentencia->bindParam(":IDVENTA",$idVenta);
         $sentencia->bindParam(":IDPRODUCTO",$producto['ID']);
@@ -67,7 +67,7 @@ if($_POST){
         <div id="paypal-button-container"></div>
     </p>
         <p>Los productos podrán ser descargados una vez que se procese el pago<br>
-        (Para aclaraciones: <strong>masterjino72@gmail.com</strong>)
+        
         </p>
 </div>
 
